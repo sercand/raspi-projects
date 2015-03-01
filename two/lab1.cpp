@@ -16,7 +16,7 @@ namespace sercand {
 
 
 Lab1::Lab1() {
-    wiringPiSetup();
+    wiringPiSetupGpio();
     initPins();
 }
 
